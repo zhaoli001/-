@@ -1,0 +1,38 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/map/map"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#F086A6",
+    "navigationBarTitleText": "拾遗",
+    "navigationBarTextStyle":"white"
+  },
+  "tabBar": {
+    "color": "#75A4F0",
+    "selectedColor":"#F01C27",
+    "backgroundColor":"#92DBF0",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页"
+        
+      },
+      {
+        "pagePath": "pages/logs/logs",
+        "text": "日志"
+      },
+      {
+        "pagePath":"pages/map/map",
+        "text":"地图"
+      }
+    ]
+  },
+  "networkTimeout": {
+    "request": 10000,
+    "downloadFile": 10000
+  },
+  "debug": true
+}
