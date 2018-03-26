@@ -1,0 +1,9 @@
+page {
+  display: block;
+  min-height: 100%;
+  background-color: #ccc;
+}
+.back-box{
+  width: 80rpx;
+  height: 80rpx;
+}

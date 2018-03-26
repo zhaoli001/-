@@ -1,6 +1,7 @@
 //index.js
 //获取应用实例
-const app = getApp()
+const app = getApp();
+var x = require("../../utils/export.js");
 
 Page({
   data: {
@@ -24,7 +25,14 @@ Page({
       }
     })
   },
+  searchFn() {
+    wx.navigateTo({
+      url: "../shang/shang"
+    })
+  },
   onLoad: function () {
+console.log(x.a);
+
     if (app.globalData.userInfo) {
       this.setData({
         userInfo: app.globalData.userInfo,

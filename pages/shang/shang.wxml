@@ -1,0 +1,12 @@
+<view>
+  <input placeholder="输入上车地点" bindinput="bindInput1" focus="true" value="{{shangValue}}" />
+</view>
+<view>
+  <input placeholder="输入下车地点" bindinput="bindInput2" focus="true" value="{{xiaValue}}" />
+</view>
+<view bindtouchstart='bindsearch1' data-location="{{i.location}}" data-keywords="{{i.name}}" wx:for="{{tips1}}" wx:for-item="i">
+  {{i.name}}
+</view>
+<view bindtouchstart='bindsearch2' data-location="{{i.location}}" data-keywords="{{i.name}}" wx:for="{{tips2}}" wx:for-item="i">
+  {{i.name}}
+</view>

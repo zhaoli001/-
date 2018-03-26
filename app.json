@@ -2,7 +2,12 @@
   "pages":[
     "pages/index/index",
     "pages/logs/logs",
-    "pages/map/map"
+    "pages/map/map",
+    "pages/back/back",
+    "pages/search/search",
+    "pages/shang/shang",
+    "pages/xia/xia",
+    "pages/echarts/echarts"
   ],
   "window":{
     "backgroundTextStyle":"light",
@@ -25,8 +30,12 @@
         "text": "日志"
       },
       {
-        "pagePath":"pages/map/map",
-        "text":"地图"
+        "pagePath":"pages/back/back",
+        "text":"背景"
+      },
+      {
+        "pagePath":"pages/echarts/echarts",
+        "text":"echarts"
       }
     ]
   },

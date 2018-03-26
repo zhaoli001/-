@@ -1,0 +1,8 @@
+.con{
+  width:100%;
+  height:500px;
+}
+#mychart-dom-bar{
+  width:100%;
+  height:100%
+}

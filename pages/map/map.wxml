@@ -1,9 +1,11 @@
-<view class="map_container">
-  <map class="map" id="map" longitude="{{longitude}}" latitude="{{latitude}}" scale="14" show-location="true" markers="{{markers}}" bindmarkertap="makertap"></map>
-</view>
 <view class="map_text">
-  <text class="h1">{{textData.name}}</text>
-  <text>{{textData.desc}}</text>
+  <input placeholder='点击输入上车地点' bindfocus="bindfocusshang" value="{{shang}}" />
+  <input placeholder='点击输入下车地点' bindfocus="bindfocusxia" value='{{xia}}'/>
+   <text class="h1">{{distance}}</text>
+  <text>{{cost}}</text> 
+</view>
+<view class="map_container">
+  <map class="map" id="map" polyline="{{polyline}}" include-points="{{pointss}}" scale="14" show-location="true" markers="{{markers}}" bindmarkertap="makertap"></map>
 </view>
 
   
